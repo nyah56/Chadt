@@ -1,3 +1,3 @@
-# Chadt
-# to start cd /%your-directory%/Chadt
-# npm run devStart
+# Chadt<br/>
+cd /%your-directory%/Chadt<br/>
+npm run devStart
