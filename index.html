@@ -9,13 +9,16 @@
   <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
   <script defer src="script.js"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
   <div id="message-container"></div>
   <form id="send-container">
-    <input type="text" id="message-input" placeholder="Send Something">
-    <button type="submit" id="send-button">Send</button>
+    <input type="text" id="message-input" placeholder="Type Something..." autocomplete="off">
+    <button type="submit" id="send-button"><i class="fas fa-paper-plane"></i></button>
   </form>
 </body>
 
